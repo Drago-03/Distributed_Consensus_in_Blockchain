@@ -1,7 +1,15 @@
 {
   "name": "quorum",
+  "version": "1.0.0",
+  "description": "Interactive 3D presentation on distributed consensus in blockchain",
+  "license": "MIT",
+  "author": "Mantej Singh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drago-03/Distributed_Consensus_in_Blockchain.git",
+    "directory": "PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain"
+  },
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "packageManager": "bun@1.3.11",
   "scripts": {
