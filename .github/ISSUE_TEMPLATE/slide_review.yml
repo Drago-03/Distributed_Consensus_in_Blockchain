@@ -1,0 +1,33 @@
+name: Slide review
+description: Review or improve a specific slide (content, visuals, choreography, notes)
+title: "[Slide NN] "
+labels: ["slide", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping polish the deck. One issue per slide, please.
+  - type: input
+    id: slide
+    attributes:
+      label: Slide number and title
+      placeholder: "13: Proof of Work"
+    validations:
+      required: true
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: Areas affected
+      options:
+        - label: Content accuracy
+        - label: 3D scene / visuals
+        - label: Step choreography / camera
+        - label: Rail cards / captions
+        - label: Speaker notes
+        - label: Accessibility
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+      description: Include the step number(s) and screenshots if helpful.
+    validations:
+      required: true
