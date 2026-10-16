@@ -1,6 +1,7 @@
 import { type ComponentType, type ReactNode } from 'react';
 import { slide01 } from './Slide01';
 import { slide02 } from './Slide02';
+import { slide03 } from './Slide03';
 
 /** Camera target for one step, relative to the slide's station: a named pose, or fitToBox on a named object. */
 export type CameraSpec =
@@ -30,6 +31,7 @@ export interface SlideV2 {
 export const SLIDES: Record<number, SlideV2> = {
   0: slide01,
   1: slide02,
+  2: slide03,
 };
 
 export function getSlideEntry(slideIndex: number): SlideV2 {
