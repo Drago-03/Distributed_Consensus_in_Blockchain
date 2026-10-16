@@ -1,0 +1,49 @@
+# ── Dependencies ────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build output ────────────────────────────────
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# ── Logs ────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+lerna-debug.log*
+
+# ── Environment ─────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ── Editors & OS ────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ── Local AI / tooling caches (not part of the project) ──
+.claude/
+.serena/
+.code-review-graph/
+graphify-out/
+.planning/
+
+# ── Test / coverage ─────────────────────────────
+coverage/
+.vite/
