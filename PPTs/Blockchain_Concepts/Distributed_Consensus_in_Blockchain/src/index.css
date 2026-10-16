@@ -440,11 +440,7 @@ html, body, #root { overflow: hidden; }
   font-family: 'Pacifico', cursive;
   font-size: clamp(4rem, min(12vw, 22vh), 12rem);
   line-height: 1.25;
-  color: var(--bone);
-  background: linear-gradient(100deg, var(--bone) 20%, var(--honest) 55%, var(--signal) 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fff;
   filter: drop-shadow(0 6px 28px rgb(0 0 0 / 0.85));
   padding: 0.05em 0.25em 0.35em; /* the script's swashes and descenders overhang its box */
 }
