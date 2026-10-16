@@ -7,7 +7,8 @@ Thanks for your interest in improving these presentations. This guide explains h
 - **Content fixes:** factual errors, unclear wording, typos in slides or speaker notes.
 - **Slide improvements:** better visuals, smoother choreography, clearer camera shots.
 - **Accessibility:** keyboard flow, reduced-motion behaviour, contrast, screen-reader captions.
-- **New decks:** add a deck under `PPTs/<Topic>/<Deck_Name>/`.
+- **New decks:** add a deck under `PPTs/<Topic>/<Deck_Name>/` with a `deck.json` so it appears in the hub (see the [README](README.md#adding-a-deck-to-the-hub)).
+- **Hub:** improvements to the landing page in `hub/`.
 
 ## Before you start
 
@@ -60,6 +61,7 @@ Use the slide scope (`slide-01` … `slide-22`) for single-slide changes.
 - [ ] `stepCount` in `meta.ts` matches the slide's `steps` length
 - [ ] Speaker notes in `notes.ts` updated if the steps changed
 - [ ] Checked with `prefers-reduced-motion` enabled
+- [ ] For hub or deck manifest changes: `bun scripts/build-site.mjs` passes and the hub lists the deck
 - [ ] PR links the issue it resolves (`Closes #123`)
 
 CI runs lint and build on every pull request.
