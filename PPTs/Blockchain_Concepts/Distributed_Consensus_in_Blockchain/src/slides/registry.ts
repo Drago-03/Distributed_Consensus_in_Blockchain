@@ -7,6 +7,7 @@ import { slide05 } from './Slide05';
 import { slide06 } from './Slide06';
 import { slide07 } from './Slide07';
 import { slide08 } from './Slide08';
+import { slide09 } from './Slide09';
 
 /** Camera target for one step, relative to the slide's station: a named pose, or fitToBox on a named object. */
 export type CameraSpec =
@@ -42,6 +43,7 @@ export const SLIDES: Record<number, SlideV2> = {
   5: slide06,
   6: slide07,
   7: slide08,
+  8: slide09,
 };
 
 export function getSlideEntry(slideIndex: number): SlideV2 {
