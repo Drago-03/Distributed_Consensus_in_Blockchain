@@ -47,3 +47,6 @@ graphify-out/
 # ── Test / coverage ─────────────────────────────
 coverage/
 .vite/
+
+# ── GitHub Pages build output ──
+_site/

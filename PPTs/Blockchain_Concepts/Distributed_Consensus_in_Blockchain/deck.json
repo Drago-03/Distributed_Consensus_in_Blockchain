@@ -1,0 +1,12 @@
+{
+  "title": "Distributed Consensus in Blockchain",
+  "topic": "Blockchain Concepts",
+  "description": "How thousands of computers agree on one truth with no one in charge: hashes and blocks, Proof of Work, Proof of Stake, forks and attacks, in 22 interactive 3D slides.",
+  "slides": 22,
+  "steps": 84,
+  "minutes": 80,
+  "tags": ["blockchain", "consensus", "proof-of-work", "proof-of-stake", "3d"],
+  "accent": "#3ed6c5",
+  "thumbnail": "thumbnail.webp",
+  "template": true
+}
