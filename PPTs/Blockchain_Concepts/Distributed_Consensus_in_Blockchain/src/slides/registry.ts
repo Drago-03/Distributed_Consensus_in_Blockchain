@@ -1,4 +1,5 @@
 import { type ComponentType, type ReactNode } from 'react';
+import { slide01 } from './Slide01';
 
 /** Camera target for one step, relative to the slide's station: a named pose, or fitToBox on a named object. */
 export type CameraSpec =
@@ -26,6 +27,7 @@ export interface SlideV2 {
 // Shared by App.tsx (the projected window) and PresenterView.tsx (which mirrors the
 // current slide's Scene as a background preview) so the two never drift out of sync.
 export const SLIDES: Record<number, SlideV2> = {
+  0: slide01,
 };
 
 export function getSlideEntry(slideIndex: number): SlideV2 {
