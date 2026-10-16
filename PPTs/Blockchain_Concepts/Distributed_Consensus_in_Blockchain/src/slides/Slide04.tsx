@@ -234,7 +234,7 @@ export const slide04: SlideV2 = {
           </p>
           <img
             className="rail-figure"
-            src="/resources/images/shared%20digital%20logbook.png"
+            src={`${import.meta.env.BASE_URL}resources/images/shared%20digital%20logbook.png`}
             width={1317}
             height={737}
             alt="Diagram: a transaction is verified by the network, added once to a chain of blocks, copied to every node, and becomes a permanent record."
@@ -250,7 +250,7 @@ export const slide04: SlideV2 = {
         <div className="flex flex-col gap-static-md">
           <img
             className="rail-figure"
-            src="/resources/images/why%20tampering%20is%20hard.png"
+            src={`${import.meta.env.BASE_URL}resources/images/why%20tampering%20is%20hard.png`}
             width={1319}
             height={735}
             alt="Diagram: blocks A1, B2, C3 link correctly by hash reference; altering block C3 breaks the connection to D4 and E5, making the tampering visible across the chain."
